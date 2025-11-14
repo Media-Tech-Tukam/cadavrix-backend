@@ -1,0 +1,909 @@
+{
+  "cadavrix": {
+    "metadata": {
+      "boardId": "cadavrix-001",
+      "title": "Primera Obra Colectiva",
+      "description": "El primer cadáver exquisito digital de Cadavrix",
+      "createdAt": "2024-10-01T10:00:00Z",
+      "status": "active",
+      "dimensions": {
+        "gridSize": "10x10",
+        "totalCells": 100,
+        "cellSize": "2000x2000px",
+        "templateSize": "2200x2200px"
+      }
+    },
+    "artists": [
+      {
+        "id": "art001",
+        "name": "María González",
+        "bio": "Artista visual especializada en arte digital y conceptual. Explorando la intersección entre lo urbano y lo abstracto.",
+        "registeredAt": "2024-10-01T08:30:00Z",
+        "socialMedia": {
+          "facebook": "https://facebook.com/maria.gonzalez.art",
+          "instagram": "https://instagram.com/mariag_visualart",
+          "website": "https://mariagonzalez.art"
+        },
+        "artworksCount": 2
+      },
+      {
+        "id": "art002",
+        "name": "Carlos Mendoza",
+        "bio": "Pintor contemporáneo que reinterpreta clásicos del arte universal desde una perspectiva moderna y personal.",
+        "registeredAt": "2024-10-02T14:15:00Z",
+        "socialMedia": {
+          "facebook": "https://facebook.com/carlos.mendoza.painter",
+          "instagram": "https://instagram.com/carlosmendoza_art",
+          "website": "https://carlosmendoza.com"
+        },
+        "artworksCount": 2
+      },
+      {
+        "id": "art003",
+        "name": "Ana Rodríguez",
+        "bio": "Diseñadora gráfica convertida en artista digital. Sus obras exploran la geometría y el color como lenguajes emocionales.",
+        "registeredAt": "2024-10-03T09:45:00Z",
+        "socialMedia": {
+          "facebook": "https://facebook.com/ana.rodriguez.design",
+          "instagram": "https://instagram.com/anarodriguez_digital",
+          "website": "https://anarodriguez.studio"
+        },
+        "artworksCount": 2
+      },
+      {
+        "id": "art004",
+        "name": "Roberto Silva",
+        "bio": "Ilustrador y artista multimedia. Su trabajo se centra en la representación de redes sociales y conexiones humanas.",
+        "registeredAt": "2024-10-04T16:20:00Z",
+        "socialMedia": {
+          "facebook": "https://facebook.com/roberto.silva.multimedia",
+          "instagram": "https://instagram.com/robertosilva_ilustra",
+          "website": "https://robertosilva.net"
+        },
+        "artworksCount": 2
+      },
+      {
+        "id": "art005",
+        "name": "Elena Vásquez",
+        "bio": "Artista conceptual que utiliza medios digitales para explorar temas de identidad y transformación en la era moderna.",
+        "registeredAt": "2024-10-05T11:10:00Z",
+        "socialMedia": {
+          "facebook": "https://facebook.com/elena.vasquez.conceptual",
+          "instagram": "https://instagram.com/elenavasquez_digital",
+          "website": "https://elenavasquez.art"
+        },
+        "artworksCount": 2
+      },
+      {
+        "id": "art006",
+        "name": "Diego Morales",
+        "bio": "Músico y artista visual que traduce composiciones musicales en experiencias visuales abstractas y dinámicas.",
+        "registeredAt": "2024-10-06T13:25:00Z",
+        "socialMedia": {
+          "facebook": "https://facebook.com/diego.morales.music",
+          "instagram": "https://instagram.com/diegomorales_visual",
+          "website": "https://diegomorales.music"
+        },
+        "artworksCount": 1
+      },
+      {
+        "id": "art007",
+        "name": "Lucía Herrera",
+        "bio": "Fotógrafa y artista digital que combina fotografía análoga con intervenciones digitales para crear narrativas visuales únicas.",
+        "registeredAt": "2024-10-07T10:50:00Z",
+        "socialMedia": {
+          "facebook": "https://facebook.com/lucia.herrera.photo",
+          "instagram": "https://instagram.com/luciaherrera_foto",
+          "website": "https://luciaherrera.photo"
+        },
+        "artworksCount": 1
+      },
+      {
+        "id": "art008",
+        "name": "Andrés Castillo",
+        "bio": "Arquitecto y artista que explora la relación entre el espacio construido y la expresión artística libre.",
+        "registeredAt": "2024-10-08T15:30:00Z",
+        "socialMedia": {
+          "facebook": "https://facebook.com/andres.castillo.arq",
+          "instagram": "https://instagram.com/andrescastillo_art",
+          "website": "https://andrescastillo.studio"
+        },
+        "artworksCount": 1
+      },
+      {
+        "id": "art009",
+        "name": "Sofía Ramírez",
+        "bio": "Pintora tradicionalista que ha incursionado en el arte digital manteniendo su estilo pictórico característico.",
+        "registeredAt": "2024-10-09T12:15:00Z",
+        "socialMedia": {
+          "facebook": "https://facebook.com/sofia.ramirez.painter",
+          "instagram": "https://instagram.com/sofiaramirez_paint",
+          "website": "https://sofiaramirez.art"
+        },
+        "artworksCount": 1
+      },
+      {
+        "id": "art010",
+        "name": "Gabriel Torres",
+        "bio": "Diseñador de videojuegos que crea arte inspirado en mecánicas de juego y estética pixel art moderna.",
+        "registeredAt": "2024-10-10T09:40:00Z",
+        "socialMedia": {
+          "facebook": "https://facebook.com/gabriel.torres.gamedev",
+          "instagram": "https://instagram.com/gabrieltorres_pixel",
+          "website": "https://gabrieltorres.dev"
+        },
+        "artworksCount": 1
+      }
+    ],
+    "artworks": [
+      {
+        "id": "work001",
+        "artistId": "art001",
+        "title": "Fragmento Urbano",
+        "description": "Una exploración visual de la fragmentación urbana contemporánea, donde los elementos arquitectónicos se descomponen en formas abstractas.",
+        "image": "img/image001.webp",
+        "createdAt": "2024-10-15T14:30:00Z",
+        "uploadedAt": "2024-10-15T16:45:00Z",
+        "status": "completed",
+        "gridPosition": {
+          "x": 7,
+          "y": 0
+        }
+      },
+      {
+        "id": "work002",
+        "artistId": "art001",
+        "title": "Geometría Emocional",
+        "description": "Formas geométricas que representan estados emocionales en constante transformación.",
+        "image": "img/image002.webp",
+        "createdAt": "2024-10-20T10:20:00Z",
+        "uploadedAt": "2024-10-20T12:30:00Z",
+        "status": "completed",
+        "gridPosition": {
+          "x": 3,
+          "y": 2
+        }
+      },
+      {
+        "id": "work003",
+        "artistId": "art002",
+        "title": "Eco Existencial",
+        "description": "Reinterpretación contemporánea del grito, explorando la angustia existencial en la era digital.",
+        "image": "img/image003.webp",
+        "createdAt": "2024-10-12T09:15:00Z",
+        "uploadedAt": "2024-10-12T11:20:00Z",
+        "status": "completed",
+        "gridPosition": {
+          "x": 3,
+          "y": 1
+        }
+      },
+      {
+        "id": "work004",
+        "artistId": "art002",
+        "title": "Renacimiento Digital",
+        "description": "Fusión entre técnicas clásicas de pintura y elementos digitales modernos.",
+        "image": "img/image004.webp",
+        "createdAt": "2024-10-25T16:40:00Z",
+        "uploadedAt": "2024-10-25T18:10:00Z",
+        "status": "completed",
+        "gridPosition": {
+          "x": 8,
+          "y": 3
+        }
+      },
+      {
+        "id": "work005",
+        "artistId": "art003",
+        "title": "Síntesis Abstracta",
+        "description": "Composición geométrica que explora la relación entre color y emoción a través de formas simples.",
+        "image": "img/image005.webp",
+        "createdAt": "2024-10-18T13:25:00Z",
+        "uploadedAt": "2024-10-18T15:00:00Z",
+        "status": "completed",
+        "gridPosition": {
+          "x": 6,
+          "y": 2
+        }
+      },
+      {
+        "id": "work006",
+        "artistId": "art003",
+        "title": "Espectro Cromático",
+        "description": "Exploración de la teoría del color aplicada a formas geométricas en movimiento.",
+        "image": "img/image006.webp",
+        "createdAt": "2024-10-28T11:45:00Z",
+        "uploadedAt": "2024-10-28T13:20:00Z",
+        "status": "completed",
+        "gridPosition": {
+          "x": 1,
+          "y": 4
+        }
+      },
+      {
+        "id": "work007",
+        "artistId": "art004",
+        "title": "Conexiones",
+        "description": "Red visual que representa las complejas interacciones sociales en el mundo digital.",
+        "image": "img/image007.webp",
+        "createdAt": "2024-10-20T08:30:00Z",
+        "uploadedAt": "2024-10-20T10:15:00Z",
+        "status": "completed",
+        "gridPosition": {
+          "x": 5,
+          "y": 3
+        }
+      },
+      {
+        "id": "work008",
+        "artistId": "art004",
+        "title": "Redes Invisibles",
+        "description": "Visualización de las conexiones ocultas que nos unen en la era de la información.",
+        "image": "img/image008.webp",
+        "createdAt": "2024-10-26T14:50:00Z",
+        "uploadedAt": "2024-10-26T16:25:00Z",
+        "status": "completed",
+        "gridPosition": {
+          "x": 9,
+          "y": 1
+        }
+      },
+      {
+        "id": "work009",
+        "artistId": "art005",
+        "title": "Metamorfosis Digital",
+        "description": "Transformación de la identidad en espacios virtuales, donde lo analógico se vuelve digital.",
+        "image": "img/image009.webp",
+        "createdAt": "2024-10-22T12:10:00Z",
+        "uploadedAt": "2024-10-22T14:30:00Z",
+        "status": "completed",
+        "gridPosition": {
+          "x": 5,
+          "y": 4
+        }
+      },
+      {
+        "id": "work010",
+        "artistId": "art005",
+        "title": "Identidad Fluida",
+        "description": "Representación visual de cómo la identidad se transforma en el mundo contemporáneo.",
+        "image": "img/image010.webp",
+        "createdAt": "2024-10-29T09:20:00Z",
+        "uploadedAt": "2024-10-29T11:40:00Z",
+        "status": "completed",
+        "gridPosition": {
+          "x": 2,
+          "y": 5
+        }
+      },
+      {
+        "id": "work011",
+        "artistId": "art006",
+        "title": "Ritmos Visuales",
+        "description": "Traducción de composiciones musicales complejas en patrones visuales dinámicos.",
+        "image": "img/image011.webp",
+        "createdAt": "2024-10-25T17:20:00Z",
+        "uploadedAt": "2024-10-25T19:00:00Z",
+        "status": "completed",
+        "gridPosition": {
+          "x": 6,
+          "y": 4
+        }
+      },
+      {
+        "id": "work012",
+        "artistId": "art007",
+        "title": "Fragmentos de Memoria",
+        "description": "Collage digital que combina fotografía vintage con intervenciones contemporáneas.",
+        "image": "img/image001.webp",
+        "createdAt": "2024-10-28T15:40:00Z",
+        "uploadedAt": "2024-10-28T17:10:00Z",
+        "status": "completed",
+        "gridPosition": {
+          "x": 7,
+          "y": 4
+        }
+      },
+      {
+        "id": "work013",
+        "artistId": "art008",
+        "title": "Caos Ordenado",
+        "description": "Estructura arquitectónica que encuentra belleza en la aparente desorganización urbana.",
+        "image": "img/image002.webp",
+        "createdAt": "2024-10-30T11:30:00Z",
+        "uploadedAt": "2024-10-30T13:45:00Z",
+        "status": "completed",
+        "gridPosition": {
+          "x": 8,
+          "y": 5
+        }
+      },
+      {
+        "id": "work014",
+        "artistId": "art009",
+        "title": "Texturas del Alma",
+        "description": "Pintura digital que mantiene la esencia pictórica tradicional con herramientas modernas.",
+        "image": "img/image003.webp",
+        "createdAt": "2024-11-02T14:15:00Z",
+        "uploadedAt": "2024-11-02T16:20:00Z",
+        "status": "completed",
+        "gridPosition": {
+          "x": 0,
+          "y": 6
+        }
+      },
+      {
+        "id": "work015",
+        "artistId": "art010",
+        "title": "Laberinto Cromático",
+        "description": "Diseño inspirado en mecánicas de videojuegos con estética pixel art evolucionada.",
+        "image": "img/image004.webp",
+        "createdAt": "2024-11-05T10:25:00Z",
+        "uploadedAt": "2024-11-05T12:40:00Z",
+        "status": "completed",
+        "gridPosition": {
+          "x": 3,
+          "y": 6
+        }
+      },
+      {
+        "id": "work016",
+        "artistId": "art011",
+        "title": "Ondas Sísmicas",
+        "description": "Representación visual de fuerzas naturales invisibles que moldean nuestro mundo.",
+        "image": "img/image005.webp",
+        "createdAt": "2024-10-16T09:30:00Z",
+        "uploadedAt": "2024-10-16T11:15:00Z",
+        "status": "completed",
+        "gridPosition": {
+          "x": 4,
+          "y": 0
+        }
+      },
+      {
+        "id": "work017",
+        "artistId": "art012",
+        "title": "Nebulosa Artificial",
+        "description": "Interpretación digital de fenómenos cósmicos usando técnicas de arte generativo.",
+        "image": "img/image006.webp",
+        "createdAt": "2024-10-17T14:20:00Z",
+        "uploadedAt": "2024-10-17T16:35:00Z",
+        "status": "completed",
+        "gridPosition": {
+          "x": 1,
+          "y": 1
+        }
+      },
+      {
+        "id": "work018",
+        "artistId": "art013",
+        "title": "Código Emocional",
+        "description": "Visualización de algoritmos que procesan y interpretan emociones humanas.",
+        "image": "img/image007.webp",
+        "createdAt": "2024-10-19T12:45:00Z",
+        "uploadedAt": "2024-10-19T14:50:00Z",
+        "status": "completed",
+        "gridPosition": {
+          "x": 0,
+          "y": 2
+        }
+      },
+      {
+        "id": "work019",
+        "artistId": "art014",
+        "title": "Fractales Urbanos",
+        "description": "Patrones matemáticos encontrados en la arquitectura y planificación urbana moderna.",
+        "image": "img/image008.webp",
+        "createdAt": "2024-10-21T16:10:00Z",
+        "uploadedAt": "2024-10-21T18:25:00Z",
+        "status": "completed",
+        "gridPosition": {
+          "x": 9,
+          "y": 2
+        }
+      },
+      {
+        "id": "work020",
+        "artistId": "art015",
+        "title": "Sinfonía Visual",
+        "description": "Composición que traduce estructuras musicales clásicas en formas y colores.",
+        "image": "img/image009.webp",
+        "createdAt": "2024-10-23T08:55:00Z",
+        "uploadedAt": "2024-10-23T10:40:00Z",
+        "status": "completed",
+        "gridPosition": {
+          "x": 2,
+          "y": 3
+        }
+      },
+      {
+        "id": "work021",
+        "artistId": "art016",
+        "title": "Espejismos Digitales",
+        "description": "Ilusiones ópticas creadas con técnicas de manipulación digital avanzada.",
+        "image": "img/image010.webp",
+        "createdAt": "2024-10-24T13:30:00Z",
+        "uploadedAt": "2024-10-24T15:15:00Z",
+        "status": "completed",
+        "gridPosition": {
+          "x": 4,
+          "y": 3
+        }
+      },
+      {
+        "id": "work022",
+        "artistId": "art017",
+        "title": "Memoria Colectiva",
+        "description": "Collage que representa fragmentos de historia compartida en la era digital.",
+        "image": "img/image011.webp",
+        "createdAt": "2024-10-27T11:20:00Z",
+        "uploadedAt": "2024-10-27T13:35:00Z",
+        "status": "completed",
+        "gridPosition": {
+          "x": 0,
+          "y": 4
+        }
+      },
+      {
+        "id": "work023",
+        "artistId": "art018",
+        "title": "Biosfera Artificial",
+        "description": "Ecosistema imaginario donde la tecnología y la naturaleza coexisten armoniosamente.",
+        "image": "img/image001.webp",
+        "createdAt": "2024-10-31T15:45:00Z",
+        "uploadedAt": "2024-10-31T17:20:00Z",
+        "status": "completed",
+        "gridPosition": {
+          "x": 9,
+          "y": 4
+        }
+      },
+      {
+        "id": "work024",
+        "artistId": "art019",
+        "title": "Flujo de Datos",
+        "description": "Visualización artística de cómo la información fluye en redes complejas.",
+        "image": "img/image002.webp",
+        "createdAt": "2024-11-01T09:10:00Z",
+        "uploadedAt": "2024-11-01T11:25:00Z",
+        "status": "completed",
+        "gridPosition": {
+          "x": 1,
+          "y": 5
+        }
+      },
+      {
+        "id": "work025",
+        "artistId": "art020",
+        "title": "Arqueología Digital",
+        "description": "Excavación visual de capas de información y datos del pasado digital.",
+        "image": "img/image003.webp",
+        "createdAt": "2024-11-03T12:50:00Z",
+        "uploadedAt": "2024-11-03T14:30:00Z",
+        "status": "completed",
+        "gridPosition": {
+          "x": 4,
+          "y": 5
+        }
+      },
+      {
+        "id": "work026",
+        "artistId": "art021",
+        "title": "Resonancia Cuántica",
+        "description": "Interpretación artística de principios de la física cuántica aplicados al arte visual.",
+        "image": "img/image004.webp",
+        "createdAt": "2024-11-04T14:35:00Z",
+        "uploadedAt": "2024-11-04T16:10:00Z",
+        "status": "completed",
+        "gridPosition": {
+          "x": 6,
+          "y": 5
+        }
+      },
+      {
+        "id": "work027",
+        "artistId": "art022",
+        "title": "Simbiosis Tecnológica",
+        "description": "Fusión orgánica entre elementos naturales y componentes tecnológicos.",
+        "image": "img/image005.webp",
+        "createdAt": "2024-11-06T10:15:00Z",
+        "uploadedAt": "2024-11-06T12:00:00Z",
+        "status": "completed",
+        "gridPosition": {
+          "x": 9,
+          "y": 5
+        }
+      },
+      {
+        "id": "work028",
+        "artistId": "art023",
+        "title": "Cartografía Emocional",
+        "description": "Mapa visual de territorios emocionales explorados a través del color y la forma.",
+        "image": "img/image006.webp",
+        "createdAt": "2024-11-07T16:40:00Z",
+        "uploadedAt": "2024-11-07T18:15:00Z",
+        "status": "completed",
+        "gridPosition": {
+          "x": 1,
+          "y": 6
+        }
+      },
+      {
+        "id": "work029",
+        "artistId": "art024",
+        "title": "Arquitectura Imposible",
+        "description": "Estructuras que desafían las leyes físicas, inspiradas en geometrías no euclidianas.",
+        "image": "img/image007.webp",
+        "createdAt": "2024-11-08T13:25:00Z",
+        "uploadedAt": "2024-11-08T15:40:00Z",
+        "status": "completed",
+        "gridPosition": {
+          "x": 5,
+          "y": 6
+        }
+      },
+      {
+        "id": "work030",
+        "artistId": "art025",
+        "title": "Consciencia Artificial",
+        "description": "Exploración visual del concepto de consciencia en sistemas artificiales.",
+        "image": "img/image008.webp",
+        "createdAt": "2024-11-09T11:50:00Z",
+        "uploadedAt": "2024-11-09T13:30:00Z",
+        "status": "completed",
+        "gridPosition": {
+          "x": 7,
+          "y": 6
+        }
+      }
+    ],
+    "grid": {
+      "size": {
+        "width": 10,
+        "height": 10
+      },
+      "cells": [
+        {
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "status": "empty",
+          "artworkId": null,
+          "assignedAt": null,
+          "neighbors": [
+            {
+              "x": 1,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        {
+          "position": {
+            "x": 1,
+            "y": 0
+          },
+          "status": "empty",
+          "artworkId": null,
+          "assignedAt": null,
+          "neighbors": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 2,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 1
+            },
+            {
+              "x": 2,
+              "y": 1
+            }
+          ]
+        },
+        {
+          "position": {
+            "x": 2,
+            "y": 0
+          },
+          "status": "empty",
+          "artworkId": null,
+          "assignedAt": null,
+          "neighbors": [
+            {
+              "x": 1,
+              "y": 0
+            },
+            {
+              "x": 3,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 1
+            },
+            {
+              "x": 2,
+              "y": 1
+            },
+            {
+              "x": 3,
+              "y": 1
+            }
+          ]
+        },
+        {
+          "position": {
+            "x": 3,
+            "y": 0
+          },
+          "status": "empty",
+          "artworkId": null,
+          "assignedAt": null,
+          "neighbors": [
+            {
+              "x": 2,
+              "y": 0
+            },
+            {
+              "x": 4,
+              "y": 0
+            },
+            {
+              "x": 2,
+              "y": 1
+            },
+            {
+              "x": 3,
+              "y": 1
+            },
+            {
+              "x": 4,
+              "y": 1
+            }
+          ]
+        },
+        {
+          "position": {
+            "x": 4,
+            "y": 0
+          },
+          "status": "occupied",
+          "artworkId": "work016",
+          "assignedAt": "2024-10-16T08:00:00Z",
+          "neighbors": [
+            {
+              "x": 3,
+              "y": 0
+            },
+            {
+              "x": 5,
+              "y": 0
+            },
+            {
+              "x": 3,
+              "y": 1
+            },
+            {
+              "x": 4,
+              "y": 1
+            },
+            {
+              "x": 5,
+              "y": 1
+            }
+          ]
+        },
+        {
+          "position": {
+            "x": 5,
+            "y": 0
+          },
+          "status": "empty",
+          "artworkId": null,
+          "assignedAt": null,
+          "neighbors": [
+            {
+              "x": 4,
+              "y": 0
+            },
+            {
+              "x": 6,
+              "y": 0
+            },
+            {
+              "x": 4,
+              "y": 1
+            },
+            {
+              "x": 5,
+              "y": 1
+            },
+            {
+              "x": 6,
+              "y": 1
+            }
+          ]
+        },
+        {
+          "position": {
+            "x": 6,
+            "y": 0
+          },
+          "status": "empty",
+          "artworkId": null,
+          "assignedAt": null,
+          "neighbors": [
+            {
+              "x": 5,
+              "y": 0
+            },
+            {
+              "x": 7,
+              "y": 0
+            },
+            {
+              "x": 5,
+              "y": 1
+            },
+            {
+              "x": 6,
+              "y": 1
+            },
+            {
+              "x": 7,
+              "y": 1
+            }
+          ]
+        },
+        {
+          "position": {
+            "x": 7,
+            "y": 0
+          },
+          "status": "occupied",
+          "artworkId": "work001",
+          "assignedAt": "2024-10-15T12:00:00Z",
+          "neighbors": [
+            {
+              "x": 6,
+              "y": 0
+            },
+            {
+              "x": 8,
+              "y": 0
+            },
+            {
+              "x": 6,
+              "y": 1
+            },
+            {
+              "x": 7,
+              "y": 1
+            },
+            {
+              "x": 8,
+              "y": 1
+            }
+          ]
+        },
+        {
+          "position": {
+            "x": 8,
+            "y": 0
+          },
+          "status": "empty",
+          "artworkId": null,
+          "assignedAt": null,
+          "neighbors": [
+            {
+              "x": 7,
+              "y": 0
+            },
+            {
+              "x": 9,
+              "y": 0
+            },
+            {
+              "x": 7,
+              "y": 1
+            },
+            {
+              "x": 8,
+              "y": 1
+            },
+            {
+              "x": 9,
+              "y": 1
+            }
+          ]
+        },
+        {
+          "position": {
+            "x": 9,
+            "y": 0
+          },
+          "status": "empty",
+          "artworkId": null,
+          "assignedAt": null,
+          "neighbors": [
+            {
+              "x": 8,
+              "y": 0
+            },
+            {
+              "x": 8,
+              "y": 1
+            },
+            {
+              "x": 9,
+              "y": 1
+            }
+          ]
+        }
+      ]
+    },
+    "templates": {
+      "work001": {
+        "centerArea": {
+          "x": 100,
+          "y": 100,
+          "width": 2000,
+          "height": 2000
+        },
+        "borderFragments": {
+          "top": null,
+          "topRight": null,
+          "right": null,
+          "bottomRight": "work003",
+          "bottom": null,
+          "bottomLeft": null,
+          "left": null,
+          "topLeft": null
+        }
+      },
+      "work016": {
+        "centerArea": {
+          "x": 100,
+          "y": 100,
+          "width": 2000,
+          "height": 2000
+        },
+        "borderFragments": {
+          "top": null,
+          "topRight": null,
+          "right": null,
+          "bottomRight": "work003",
+          "bottom": "work003",
+          "bottomLeft": "work017",
+          "left": null,
+          "topLeft": null
+        }
+      }
+    },
+    "statistics": {
+      "totalArtists": 25,
+      "totalArtworks": 30,
+      "occupiedCells": 30,
+      "emptyCells": 70,
+      "completionPercentage": 30,
+      "lastUpdate": "2024-11-09T13:30:00Z"
+    }
+  }
+}
