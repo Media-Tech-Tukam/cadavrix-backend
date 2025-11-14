@@ -1,0 +1,41 @@
+# ======================================
+# CONFIGURACIÓN PARA RENDER.COM
+# ======================================
+# Este archivo debe ir en la raíz de tu backend
+
+services:
+  - type: web
+    name: cadavrix-api
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    
+    # Variables de entorno
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        generateValue: true  # Render asignará automáticamente
+      - key: MONGODB_URI
+        fromDatabase:
+          name: cadavrix-db
+          property: connectionString
+      - key: JWT_SECRET
+        generateValue: true  # Se generará automáticamente
+      - key: JWT_EXPIRE
+        value: 7d
+      - key: CLIENT_URL
+        value: https://tu-app-cadavrix.netlify.app  # Cambiar por tu dominio de Netlify
+      - key: MAX_FILE_SIZE
+        value: 10485760
+
+  # Base de datos MongoDB
+  - type: pserv
+    name: cadavrix-db
+    env: mongodb
+    plan: free
+    region: oregon
+    
+# Configuración de salud del servicio
+healthCheckPath: /health
